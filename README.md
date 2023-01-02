@@ -4,7 +4,7 @@ This will include any further modifications I make to the themes for easier usag
 
 The themes in this library can be used with [wpf-theme-selector-dotnet](https://github.com/FineRedMist/wpf-theme-selector-dotnet) using the following pattern:
 
-```csharp
+```xaml
     <ComboBoxItem Content="None" />
     <ComboBoxItem Content="Bureau Black" Tag="pack://application:,,,/WPF.Themes.Futures;component/BureauBlack.xaml"/>
     <ComboBoxItem Content="Bureau Blue" Tag="pack://application:,,,/WPF.Themes.Futures;component/BureauBlue.xaml"/>
